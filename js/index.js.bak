@@ -1,3 +1,5 @@
-window.onload = function(){
-	alert("page test");
-}
+$(document).ready(function(){
+	$("#btn-click").lick(function(){
+		alert("page test");
+	});
+});

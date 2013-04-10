@@ -1,3 +1,5 @@
-function click(){
-	alert("page test");
-}
+$(document).ready(function(){
+	$("#btn-click").click(function(){
+		alert("page test");
+	});
+});
