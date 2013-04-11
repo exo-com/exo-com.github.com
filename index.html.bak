@@ -1,16 +1,39 @@
 <!DOCTYPE HTML>
 <html>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" src="http://club-terranova.com/js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="js/index.js"></script>
 <head>
 	<title>exo-com</title>
 </head>
 <body>
-	<h1>This page is exo-com's github pages</h1>
-	<button type="button" id="btn-click">click</button>
+	<div id="wrap">
+		<div id="header">
+			<div id="top_nav">
+				<ul class="gnb breadcrumb">
+					<li class="active"><a href="#header">Home</a></li>
+				    <li><a href="#main_history">History</a></li>
+				    <li><a href="#main_portfolio">Portfolio</a></li>
+			    </ul>
+			</div>
+			<div id="header_contemt">
+			</div>
+		</div>
+
+		<div id="main">
+			<div id="main_history">
+			</div>
+			<div id="main_portfolio">
+			</div>
+		</div>
+
+		<div id="footer">
+			
+		</div>
+	</div>
 </body>
 </html>
