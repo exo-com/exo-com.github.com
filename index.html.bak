@@ -18,6 +18,7 @@
 					<li><a href="#header">HOME</a></li>
 					<li><a href="#main_history">HISTORY</a></li>
 					<li><a href="#main_portfolio">PORTFOLIO</a></li>
+					<li><a href="#footer">CONTECT US</a></li>
 				</ul>
 			</div>
 		</div>
@@ -27,6 +28,7 @@
 					<li class="active"><a href="#header">Home</a></li>
 				    <li><a href="#main_history">History</a></li>
 				    <li><a href="#main_portfolio">Portfolio</a></li>
+					<li><a href="#footer">CONTECT US</a></li>
 			    </ul>
 			</div>
 			<div id="header_contemt">
