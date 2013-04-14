@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
 <link rel="stylesheet" type="text/css" href="css/index.css"/>
@@ -11,39 +12,38 @@
 	<title>exo-com</title>
 </head>
 <body>
+	
 	<div id="wrap">
-		<div class="row">
-			<div class="span3 bs-docs-sidebar">
-				<ul class="nav nav-list bs-docs-sidenav affix">
-					<li><a href="#header">HOME</a></li>
-					<li><a href="#main_history">HISTORY</a></li>
-					<li><a href="#main_portfolio">PORTFOLIO</a></li>
-					<li><a href="#footer">CONTECT US</a></li>
+		<div id="header">
+			<div id="nav_menu">
+				<ul class="gnb breadcrumb">
+					<li id="menu_main">Main<span
+						class="divider">/</span></li>
+					<li id="menu_history">History<span
+						class="divider">/</span></li>
+					<li id="menu_story">Story<span class="divider">/</span></li>
+					<li id="menu_board">Board</li>
 				</ul>
 			</div>
 		</div>
-		<div id="header">
-			<div id="top_nav">
-				<ul class="gnb breadcrumb">
-					<li class="active"><a href="#header">Home</a></li>
-				    <li><a href="#main_history">History</a></li>
-				    <li><a href="#main_portfolio">Portfolio</a></li>
-					<li><a href="#footer">CONTECT US</a></li>
-			    </ul>
-			</div>
-			<div id="header_contemt">
-			</div>
-		</div>
-
 		<div id="main">
-			<div id="main_history">
+			<div id="main_content">
+				<h2>Main Content</h2>
 			</div>
-			<div id="main_portfolio">
+			<div id="history_content">
+				<h2>History Content</h2>
+			</div>
+			<div id="story_content">
+				<h2>Story Content</h2>
 			</div>
 		</div>
-
 		<div id="footer">
-			
+			<ul class="gnb breadcrumb">
+				<li id="menu_main"><a href="#main">Twitter</a><span
+					class="divider">/</span></li>
+				<li id="menu_history">Facebook<span
+					class="divider">/</span></li>
+			</ul>
 		</div>
 	</div>
 </body>
