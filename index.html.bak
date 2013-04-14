@@ -15,26 +15,78 @@
 	
 	<div id="wrap">
 		<div id="header">
-			<div id="nav_menu">
-				<ul class="gnb breadcrumb">
-					<li id="menu_main">Main<span
-						class="divider">/</span></li>
-					<li id="menu_history">History<span
-						class="divider">/</span></li>
-					<li id="menu_story">Story<span class="divider">/</span></li>
-					<li id="menu_board">Board</li>
-				</ul>
+			<div id="btn-toolbar" style="margin:0">
+				<div id="menu_main" class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						MAIN
+					</a>
+			    </div>
+				<div id="menu_history" class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						HISTORY
+					</a>
+			    </div>	
+						
+				<div id="menu_story" class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						STORY
+					</a>
+			    </div>
+					
+				<div id="menu_notice" class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						NOTICE
+					</a>
+				</div>	
 			</div>
 		</div>
 		<div id="main">
-			<div id="main_content">
-				<h2>Main Content</h2>
+			<div id="main_content" class="content">
+				<h3>Main Page</h3>
+				<div>
+					Main Page Thank You!
+				</div>
 			</div>
-			<div id="history_content">
-				<h2>History Content</h2>
+			<div id="history_content" class="content">
+				<h3>History Page</h3>
+				<div>
+					History Page Thank You!
+				</div>
 			</div>
-			<div id="story_content">
-				<h2>Story Content</h2>
+			<div id="story_content" class="content">
+				<h3>Story Page</h3>
+				<div>
+					Story Page Thank You!
+				</div>
+			</div>
+			<div id="notice_content" class="content">
+				<h3>Notice Page</h3>
+				<div class="accordion" id="accordion2">
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+								Github Pages Product Day
+							</a>
+						</div>
+						<div id="collapseOne" class="accordion-body collapse in">
+							<div class="accordion-inner">
+								<p>Date : 2013.04.14</p>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+								공지사항 2
+							</a>
+						</div>
+						<div id="collapseTwo" class="accordion-body collapse">
+							<div class="accordion-inner">
+								Anim pariatur cliche...
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="footer">

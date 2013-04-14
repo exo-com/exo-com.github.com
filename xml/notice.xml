@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<race>
+     <yacht>
+          <name>태연</name>
+     </yacht>
+      <yacht>
+           <name>형돈</name>
+      </yacht>
+	  <yacht>
+          <name>수영</name>
+     </yacht>
+      <yacht>
+           <name>하하</name>
+      </yacht>
+</race>
