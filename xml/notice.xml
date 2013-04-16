@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<race>
-     <yacht>
-          <name>�¿�</name>
-     </yacht>
-      <yacht>
-           <name>����</name>
-      </yacht>
-	  <yacht>
-          <name>����</name>
-     </yacht>
-      <yacht>
-           <name>����</name>
-      </yacht>
-</race>
+<board>
+     <data>
+          <name>태연</name>
+		  <date>2013.04.11</date>
+		  <content>화창한 봄날 꽃 구경</content>
+     </data>
+     <data>
+          <name>태연</name>
+		  <date>2013.04.11</date>
+		  <content>화창한 봄날 꽃 구경</content>
+     </data>
+	 <data>
+          <name>태연</name>
+		  <date>2013.04.11</date>
+		  <content>화창한 봄날 꽃 구경</content>
+     </data>
+     <data>
+          <name>태연</name>
+		  <date>2013.04.11</date>
+		  <content>화창한 봄날 꽃 구경</content>
+     </data>
+</board>

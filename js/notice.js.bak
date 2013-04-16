@@ -1,7 +1,23 @@
 $(document).ready(function(){
-	parser = new DomParser();
-	xmlDoc = parser.parseFromString(text, "xml/notice.xml");
+	try
+	{
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+	}
+	catch (e)
+	{
+		try
+		{
+			xmlDoc = document.implementation.createDocument("","",null);
+		}
+		catch (e)
+		{
+			alert(e.message);
+			return;
+		}
+	}
+	xmlDoc.async = false;
+	xmlDoc.load("xml.notice.xml");
 
-	$("#print").append(xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue);
+	document,getElementById("print").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
 	
 });

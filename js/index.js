@@ -29,6 +29,7 @@ $(document).ready(function(){
 		$("#history_content").hide();
 		$("#story_content").show();
 		$("#notice_content").hide();
+		loadxml();
 	});
 	$("#menu_notice").click(function(){
 		$("#main_content").hide();
@@ -50,4 +51,17 @@ $(window).resize(function(e){
 	$(".content").css("min-height", xHeight-170);
 });	
 
-
+function loadxml(){
+	
+	$.get("xml/notice.xml", function(data){
+		
+		$(data).find("board").each(function(){
+			$(this).find("data").each(function(){
+				$("#result").append($(this).find("name").text());
+				$("#result").append(" : " + $(this).find("date").text());
+				$("#result").append(" : " + $(this).find("content").text() +"<br/>");
+			});
+		});
+		
+	});
+}
