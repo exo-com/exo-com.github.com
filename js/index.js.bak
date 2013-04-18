@@ -68,6 +68,7 @@ $(window).resize(function(e){
 
 function loadxml(){
 	var i = 0;
+	$("#result").remove();
 	$.get("xml/notice.xml", function(data){
 		
 		$(data).find("board").each(function(){
@@ -91,4 +92,5 @@ function setxml(){
 	var name = $("#userId").val();
 	var date = $("#date").val();
 	var content = $("#content").val();
+	
 }

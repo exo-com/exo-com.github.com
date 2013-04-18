@@ -1,5 +1,6 @@
 function loaded() {
 	navigator.geolocation.getCurrentPosition(
+		var position = new daum.maps.LatLng(37.2583442, 127.0105531);
 			function(position) {
 				var map = new DMap("map_canvas", {point:new DLatLng(37.2583442,127.0105531), level:3});
 			},

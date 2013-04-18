@@ -68,6 +68,7 @@ $(window).resize(function(e){
 
 function loadxml(){
 	var i = 0;
+	$("#result").empty();
 	$.get("xml/notice.xml", function(data){
 		
 		$(data).find("board").each(function(){
